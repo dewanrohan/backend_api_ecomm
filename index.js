@@ -15,6 +15,7 @@ app.get("/", (req, resp) => {
     resp.send("hello i am alive");
 })
 */
+//
 
 //using the middleware for sending the data to client-side.
 app.use(bodyParser.json())
